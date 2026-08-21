@@ -112,4 +112,4 @@ OmniCleaner 1.0.0 is a native Windows 11 maintenance application organized aroun
 
 ## Intentionally excluded
 
-OmniCleaner does not include a registry cleaner, fake performance score, automatic driver replacement, multi-pass SSD wiping, forced browser/process termination, RAM “boosting,” unattended app removal, or aggressive service-disable presets. See [Safety](SAFETY.md) for the reasoning.
+OmniCleaner does not include a registry cleaner, fake performance score, automatic driver replacement, multi-pass SSD wiping, forced browser/process termination, RAM “boosting,” unattended app removal, or aggressive service-disable presets. See [Safety](docs/SAFETY.md) for the reasoning.
