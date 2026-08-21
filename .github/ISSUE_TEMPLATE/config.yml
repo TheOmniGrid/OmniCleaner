@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Private security report
+    url: https://github.com/TheOmniGrid/OmniCleaner/security/advisories/new
+    about: Report a suspected vulnerability privately.
+  - name: Support The OmniGrid
+    url: https://www.patreon.com/TheOmniGrid
+    about: Follow releases and support ongoing development.

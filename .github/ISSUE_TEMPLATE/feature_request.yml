@@ -1,0 +1,38 @@
+name: Feature request
+description: Propose a safe, understandable improvement to OmniCleaner.
+title: "[Feature]: "
+labels: [enhancement, needs-triage]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+      description: What user problem or maintenance task is currently difficult?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+      description: Describe the smallest clear feature that would solve it.
+    validations:
+      required: true
+  - type: textarea
+    id: safety
+    attributes:
+      label: Safety and recovery
+      description: How should preview, confirmation, exclusions, and recovery work?
+    validations:
+      required: true
+  - type: dropdown
+    id: workspace
+    attributes:
+      label: Best-fit workspace
+      options: [Overview, Cleanup & privacy, Storage & files, Apps & Windows, Automation, History & recovery, Settings & safety, Rule Lab, New workspace, Unsure]
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Mention existing Windows tools or workflows that partly address the problem.
