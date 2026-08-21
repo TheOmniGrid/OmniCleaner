@@ -26,10 +26,10 @@
 <p align="center">
   <a href="#get-omnicleaner"><img alt="Get OmniCleaner" src="https://img.shields.io/badge/⬇%20Get%20OmniCleaner-8A7BFF?style=for-the-badge"></a>
   <a href="#everything-in-one-clear-workspace"><img alt="Features" src="https://img.shields.io/badge/Features-2B2545?style=for-the-badge"></a>
-  <a href="#safety-is-the-feature"><img alt="Safety" src="https://img.shields.io/badge/Safety-2B2545?style=for-the-badge"></a>
   <a href="#see-it-in-action"><img alt="Screenshots" src="https://img.shields.io/badge/Screenshots-2B2545?style=for-the-badge"></a>
+  <a href="#safety-is-the-feature"><img alt="Safety" src="https://img.shields.io/badge/Safety-2B2545?style=for-the-badge"></a>
   <a href="docs/PRIVACY.md"><img alt="Privacy" src="https://img.shields.io/badge/Privacy-2B2545?style=for-the-badge"></a>
-  <a href="docs/GETTING-OMNI-CLEANER.md"><img alt="Install" src="https://img.shields.io/badge/Install-2B2545?style=for-the-badge"></a>
+  <a href="docs/GETTING-OMNI-CLEANER.md"><img alt="Installation" src="https://img.shields.io/badge/Installation-2B2545?style=for-the-badge"></a>
   <a href="docs/FAQ.md"><img alt="FAQ" src="https://img.shields.io/badge/FAQ-2B2545?style=for-the-badge"></a>
   <a href="#support-the-project"><img alt="Support" src="https://img.shields.io/badge/Support-2B2545?style=for-the-badge"></a>
 </p>
