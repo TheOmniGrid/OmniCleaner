@@ -2,28 +2,39 @@
   <img src="assets/marketing/hero.png" alt="OmniCleaner — safe Windows maintenance without the mystery" width="100%">
 </p>
 
+<h1 align="center">OmniCleaner</h1>
+<p align="center"><b>Preview-first cleanup, storage intelligence, and Windows maintenance — local-only, reversible by default, and built to stay out of the way.</b></p>
+
 <p align="center">
-  <img alt="Version 1.0.0" src="https://img.shields.io/badge/version-1.0.0-7557ff?style=for-the-badge">
-  <img alt="Windows 11" src="https://img.shields.io/badge/Windows-11-35cfff?style=for-the-badge&logo=windows11&logoColor=white">
-  <img alt="x64 and ARM64" src="https://img.shields.io/badge/architecture-x64%20%2B%20ARM64-151b26?style=for-the-badge">
-  <img alt="No telemetry" src="https://img.shields.io/badge/telemetry-none-25d9ad?style=for-the-badge">
-  <img alt="Donationware" src="https://img.shields.io/badge/model-donationware-a45cff?style=for-the-badge">
+  <a href="https://www.patreon.com/TheOmniGrid"><img alt="Get it on Patreon" src="https://img.shields.io/badge/Get%20it%20on-Patreon-FF424D?style=for-the-badge&logo=patreon&logoColor=white"></a>
+  &nbsp;
+  <a href="https://ko-fi.com/theomnigrid"><img alt="Get it on Ko-fi" src="https://img.shields.io/badge/Get%20it%20on-Ko--fi-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white"></a>
 </p>
 
 <p align="center">
-  <a href="#why-omnicleaner">Why OmniCleaner</a> ·
-  <a href="#everything-in-one-clear-workspace">Features</a> ·
-  <a href="#safety-is-the-feature">Safety</a> ·
-  <a href="#see-it-in-action">Screenshots</a> ·
-  <a href="#get-omnicleaner">Get OmniCleaner</a> ·
-  <a href="#support-the-project">Support</a>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-8A7BFF?style=flat-square">
+  <img alt="Platform" src="https://img.shields.io/badge/platform-Windows%2011-0078D4?style=flat-square&logo=windows11&logoColor=white">
+  <img alt="Architecture" src="https://img.shields.io/badge/architecture-x64%20%C2%B7%20ARM64-23232F?style=flat-square">
+  <img alt="Telemetry" src="https://img.shields.io/badge/telemetry-none-2EA043?style=flat-square">
+  <img alt="Model" src="https://img.shields.io/badge/model-donationware-6A5BDB?style=flat-square">
 </p>
 
+<!-- Quick navigation. These are clickable: each chip jumps to a section of this
+     page, or to the document it names. Anchors are GitHub's own slugs for the
+     headings below -- if a heading is renamed, its chip has to be renamed too. -->
 <p align="center">
-  <a href="https://www.patreon.com/TheOmniGrid"><img src="assets/support/patreon.png" alt="Become a patron" width="250"></a>
-  &nbsp;&nbsp;
-  <a href="https://ko-fi.com/theomnigrid"><img src="assets/support/ko-fi.png" alt="Support on Ko-fi" width="250"></a>
+  <a href="#get-omnicleaner"><img alt="Get OmniCleaner" src="https://img.shields.io/badge/↓%20Get%20OmniCleaner-8A7BFF?style=for-the-badge"></a>
+  <a href="#everything-in-one-clear-workspace"><img alt="Features" src="https://img.shields.io/badge/Features-2B2545?style=for-the-badge"></a>
+  <a href="#safety-is-the-feature"><img alt="Safety" src="https://img.shields.io/badge/Safety-2B2545?style=for-the-badge"></a>
+  <a href="#see-it-in-action"><img alt="Screenshots" src="https://img.shields.io/badge/Screenshots-2B2545?style=for-the-badge"></a>
+  <a href="#lightweight-by-design"><img alt="Lightweight" src="https://img.shields.io/badge/Lightweight-2B2545?style=for-the-badge"></a>
+  <a href="docs/PRIVACY.md"><img alt="Privacy" src="https://img.shields.io/badge/Privacy-2B2545?style=for-the-badge"></a>
+  <a href="docs/FAQ.md"><img alt="FAQ" src="https://img.shields.io/badge/FAQ-2B2545?style=for-the-badge"></a>
+  <a href="docs/PRESS-KIT.md"><img alt="Press kit" src="https://img.shields.io/badge/Press%20kit-2B2545?style=for-the-badge"></a>
+  <a href="#support-the-project"><img alt="Support" src="https://img.shields.io/badge/Support-2B2545?style=for-the-badge"></a>
 </p>
+
+---
 
 > [!IMPORTANT]
 > This is OmniCleaner’s public product and documentation repository. In keeping with the OmniGrid release model, **application source code, installers, portable builds, signing material, and private build infrastructure are deliberately not hosted here**.
@@ -133,6 +144,16 @@ OmniCleaner intentionally does **not** include a registry cleaner, fake one-clic
 
 For the long-form inventory, see [Features](docs/FEATURES.md) and [Coverage & improvements](docs/COVERAGE.md).
 
+## Lightweight by design
+
+OmniCleaner does its work when you ask it to, then gets out of the way.
+
+- No resident Windows service, tray process, health watcher, advertising component, or analytics process.
+- Scheduled maintenance uses Windows Task Scheduler and runs only on the schedule you configure.
+- Duplicate detection escalates from inexpensive size and sample checks to full hashing and byte comparison only when necessary.
+- Storage and cleanup scans are bounded, cancellable operations rather than continuous background indexing.
+- Closing OmniCleaner closes OmniCleaner; there is no always-on companion process left behind.
+
 ## Get OmniCleaner
 
 | Current version | Supported systems |
@@ -163,9 +184,9 @@ OmniCleaner is distributed outside GitHub through official OmniGrid channels. Th
 OmniCleaner is donationware. Contributions fund Windows compatibility work, rule maintenance, testing, documentation, signing, and continued development across the OmniGrid family.
 
 <p align="center">
-  <a href="https://www.patreon.com/TheOmniGrid"><img src="assets/support/patreon.png" alt="Become a patron" width="300"></a>
+  <a href="https://www.patreon.com/TheOmniGrid"><img src="assets/support/support-patreon.svg" height="64" alt="Support OmniCleaner on Patreon"></a>
   &nbsp;&nbsp;
-  <a href="https://ko-fi.com/theomnigrid"><img src="assets/support/ko-fi.png" alt="Support on Ko-fi" width="300"></a>
+  <a href="https://ko-fi.com/theomnigrid"><img src="assets/support/support-kofi.svg" height="64" alt="Support OmniCleaner on Ko-fi"></a>
 </p>
 
 ## Repository and license
