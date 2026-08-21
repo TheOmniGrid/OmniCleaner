@@ -11,12 +11,15 @@
 </p>
 
 <p align="center">
-  <a href="#why-omnicleaner">Why OmniCleaner</a> ·
-  <a href="#everything-in-one-clear-workspace">Features</a> ·
-  <a href="#safety-is-the-feature">Safety</a> ·
-  <a href="#see-it-in-action">Screenshots</a> ·
-  <a href="#get-omnicleaner">Get OmniCleaner</a> ·
-  <a href="#support-the-project">Support</a>
+  <a href="#get-omnicleaner"><img alt="Get OmniCleaner" src="https://img.shields.io/badge/↓%20Get%20OmniCleaner-8A7BFF?style=for-the-badge"></a>
+  <a href="#everything-in-one-clear-workspace"><img alt="Features" src="https://img.shields.io/badge/Features-2B2545?style=for-the-badge"></a>
+  <a href="#safety-is-the-feature"><img alt="Safety" src="https://img.shields.io/badge/Safety-2B2545?style=for-the-badge"></a>
+  <a href="#see-it-in-action"><img alt="Screenshots" src="https://img.shields.io/badge/Screenshots-2B2545?style=for-the-badge"></a>
+  <a href="#lightweight-by-design"><img alt="Lightweight" src="https://img.shields.io/badge/Lightweight-2B2545?style=for-the-badge"></a>
+  <a href="docs/PRIVACY.md"><img alt="Privacy" src="https://img.shields.io/badge/Privacy-2B2545?style=for-the-badge"></a>
+  <a href="docs/FAQ.md"><img alt="FAQ" src="https://img.shields.io/badge/FAQ-2B2545?style=for-the-badge"></a>
+  <a href="docs/PRESS-KIT.md"><img alt="Press kit" src="https://img.shields.io/badge/Press%20kit-2B2545?style=for-the-badge"></a>
+  <a href="#support-the-project"><img alt="Support" src="https://img.shields.io/badge/Support-2B2545?style=for-the-badge"></a>
 </p>
 
 <p align="center">
@@ -132,6 +135,16 @@ OmniCleaner intentionally does **not** include a registry cleaner, fake one-clic
 - No ads, account, analytics, telemetry, cloud service, auto-updater, or resident daemon.
 
 For the long-form inventory, see [Features](docs/FEATURES.md) and [Coverage & improvements](docs/COVERAGE.md).
+
+## Lightweight by design
+
+OmniCleaner does its work when you ask it to, then gets out of the way.
+
+- No resident Windows service, tray process, health watcher, advertising component, or analytics process.
+- Scheduled maintenance uses Windows Task Scheduler and runs only on the schedule you configure.
+- Duplicate detection escalates from inexpensive size and sample checks to full hashing and byte comparison only when necessary.
+- Storage and cleanup scans are bounded, cancellable operations rather than continuous background indexing.
+- Closing OmniCleaner closes OmniCleaner; there is no always-on companion process left behind.
 
 ## Get OmniCleaner
 
