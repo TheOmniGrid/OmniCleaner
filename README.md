@@ -177,12 +177,6 @@ OmniCleaner is donationware. Contributions fund Windows compatibility work, rule
   <a href="https://ko-fi.com/theomnigrid"><img src="assets/support/support-kofi.svg" height="64" alt="Support OmniCleaner on Ko-fi"></a>
 </p>
 
-## Repository and license
-
-Bug reports, feature requests, documentation suggestions, and responsible security reports are welcome. Code contributions are not accepted through this showcase repository because the application source is not public.
-
-OmniCleaner is currently proprietary and all rights are reserved. See [LICENSE.md](LICENSE.md), [CONTRIBUTING.md](CONTRIBUTING.md), and [SECURITY.md](SECURITY.md).
-
 ## The OmniVex suite
 
 OmniCleaner is one of a family of tools sharing a design language and a philosophy —
@@ -192,4 +186,48 @@ modern, fast, no telemetry:
 
 <sub>**OmniWrappers** is four Direct3D compatibility installers — OmniDXVK, OmniDxWrapper, OmniVKD3D and OmniVoodoo2.</sub>
 
-<p align="center"><sub>OmniCleaner · The OmniGrid · Windows maintenance with context, consent, and recovery.</sub></p>
+<sub>Tuned for framerate, mixed for headroom, sharp to the pixel. Donationware
+tools for gamers and audiophiles — audio, graphics, and a bit of privacy too.</sub>
+
+More at [github.com/TheOmniGrid](https://github.com/TheOmniGrid).
+
+---
+
+## Credit
+
+**OmniCleaner is an original implementation.** No third-party cleaner definitions, source
+code, icons, installers or branding are bundled in it, and it carries no third-party
+runtime packages.
+
+The problem space is well-trodden, and the tools that mapped it are worth naming: it
+combines the practical breadth people expect from **CCleaner** and **BleachBit**, the
+Windows-native focus of **CleanmgrPlus** and **FluentCleaner**, and the specialist
+file-finding of RED-style empty-directory tools — then adds stricter safeguards and a
+clearer interface. Those names are used descriptively; the products belong to their
+respective owners, and mentioning them implies no endorsement or affiliation.
+
+Windows, Windows 11, WinGet and Microsoft are trademarks of Microsoft Corporation.
+
+Full notices in [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
+
+---
+
+## Contact
+
+Bug reports, feature requests, documentation suggestions and responsible security reports
+are welcome. Code contributions are not accepted through this showcase repository, because
+the application source is not public — see [CONTRIBUTING.md](CONTRIBUTING.md).
+
+Security issues: use GitHub's private "Report a vulnerability" flow described in
+[SECURITY.md](SECURITY.md), not a public issue.
+
+**omnivex@theomnigrid.biz**
+
+---
+
+<div align="center">
+
+Copyright © 2026 OmniVex · Proprietary donationware, all rights reserved — see [LICENSE.md](LICENSE.md)<br>
+<sub>Windows, Windows 11 and WinGet are trademarks of Microsoft Corporation; OmniCleaner is not affiliated with Microsoft.</sub>
+
+</div>
