@@ -156,6 +156,7 @@ OmniCleaner is distributed outside GitHub through official OmniGrid channels. Th
 | [Getting OmniCleaner](docs/GETTING-OMNI-CLEANER.md) | Platform requirements and release-channel guidance. |
 | [FAQ](docs/FAQ.md) | Common product, compatibility, and safety questions. |
 | [Public repository policy](docs/PUBLIC-REPOSITORY.md) | Exactly what is and is not published here. |
+| [Press kit](docs/PRESS-KIT.md) | Approved messaging, graphics, screenshots, and brand cues. |
 
 ## Support the project
 
