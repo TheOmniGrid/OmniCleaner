@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/marketing/hero.png" alt="OmniCleaner — safe Windows maintenance without the mystery" width="100%">
+  <img src="assets/marketing/banner-animated.gif" alt="OmniCleaner — safe Windows maintenance without the mystery" width="100%">
 </p>
 
 <p align="center">
