@@ -219,20 +219,26 @@ Full notices in [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
 
 ## Contact
 
-Bug reports, feature requests, documentation suggestions and responsible security reports
-are welcome. Code contributions are not accepted through this showcase repository, because
-the application source is not public — see [CONTRIBUTING.md](CONTRIBUTING.md).
+Use public channels only for information that is safe to share. Remove usernames, local paths,
+account identifiers, licence data, and other personal information from screenshots and logs.
 
-Security issues: use GitHub's private "Report a vulnerability" flow described in
-[SECURITY.md](SECURITY.md), not a public issue.
+| Channel | Use |
+|---|---|
+| [GitHub Issues](../../issues/new/choose) | Reproducible bugs, compatibility reports, and documentation corrections |
+| [GitHub Discussions](../../discussions) | Questions, ideas, and community support |
+| [Security](SECURITY.md) | Private vulnerability reporting — never use a public issue |
+| [Email](mailto:omnivex@theomnigrid.biz) | Private support, delivery, or licensing questions |
 
-**omnivex@theomnigrid.biz**
+Support is best-effort. See [SUPPORT.md](SUPPORT.md) and [CONTRIBUTING.md](CONTRIBUTING.md)
+for repository scope and reporting guidance.
 
 ---
 
-<div align="center">
-
-Copyright © 2026 OmniVex · Proprietary donationware, all rights reserved — see [LICENSE.md](LICENSE.md)<br>
-<sub>Windows, Windows 11 and WinGet are trademarks of Microsoft Corporation; OmniCleaner is not affiliated with Microsoft.</sub>
-
-</div>
+<p align="center">
+  <strong>OmniCleaner</strong><br>
+  <a href="https://github.com/TheOmniGrid">The OmniGrid on GitHub</a> ·
+  <a href="https://ko-fi.com/theomnigrid">Ko-fi</a> ·
+  <a href="https://www.patreon.com/TheOmniGrid">Patreon</a><br><br>
+  <sub>Copyright © 2026 OmniVex · Proprietary donationware · All rights reserved · <a href="LICENSE.md">License</a></sub><br>
+  <sub>Windows, Windows 11 and WinGet are trademarks of Microsoft Corporation; OmniCleaner is not affiliated with Microsoft.</sub>
+</p>
