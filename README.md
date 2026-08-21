@@ -7,26 +7,31 @@
 <p align="center">Part of the <a href="#the-omnivex-suite">OmniVex</a> suite.</p>
 
 <p align="center">
-  <img alt="Version 1.0.0" src="https://img.shields.io/badge/version-1.0.0-7557ff?style=for-the-badge">
-  <img alt="Windows 11" src="https://img.shields.io/badge/Windows-11-35cfff?style=for-the-badge&logo=windows11&logoColor=white">
-  <img alt="x64 and ARM64" src="https://img.shields.io/badge/architecture-x64%20%2B%20ARM64-151b26?style=for-the-badge">
-  <img alt="No telemetry" src="https://img.shields.io/badge/telemetry-none-25d9ad?style=for-the-badge">
-  <img alt="Donationware" src="https://img.shields.io/badge/model-donationware-a45cff?style=for-the-badge">
-</p>
-
-<p align="center">
-  <a href="#why-omnicleaner">Why OmniCleaner</a> ·
-  <a href="#everything-in-one-clear-workspace">Features</a> ·
-  <a href="#safety-is-the-feature">Safety</a> ·
-  <a href="#see-it-in-action">Screenshots</a> ·
-  <a href="#get-omnicleaner">Get OmniCleaner</a> ·
-  <a href="#support-the-project">Support</a>
-</p>
-
-<p align="center">
   <a href="https://www.patreon.com/TheOmniGrid"><img alt="Get it on Patreon" src="https://img.shields.io/badge/Get%20it%20on-Patreon-FF424D?style=for-the-badge&logo=patreon&logoColor=white"></a>
   &nbsp;
   <a href="https://ko-fi.com/theomnigrid"><img alt="Get it on Ko-fi" src="https://img.shields.io/badge/Get%20it%20on-Ko--fi-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white"></a>
+</p>
+
+<p align="center">
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-8A7BFF?style=flat-square">
+  <img alt="Platform" src="https://img.shields.io/badge/platform-Windows%2011-0078D4?style=flat-square&logo=windows&logoColor=white">
+  <img alt="Architecture" src="https://img.shields.io/badge/architecture-x64%20%C2%B7%20ARM64-8A7BFF?style=flat-square">
+  <img alt="Telemetry" src="https://img.shields.io/badge/telemetry-none-2EA043?style=flat-square">
+  <img alt="Model" src="https://img.shields.io/badge/model-donationware-6A5BDB?style=flat-square">
+</p>
+
+<!-- Quick navigation. These are clickable: each chip jumps to a section of this
+     page, or to the document it names. Anchors are GitHub's own slugs for the
+     headings below -- if a heading is renamed, its chip has to be renamed too. -->
+<p align="center">
+  <a href="#get-omnicleaner"><img alt="Get OmniCleaner" src="https://img.shields.io/badge/⬇%20Get%20OmniCleaner-8A7BFF?style=for-the-badge"></a>
+  <a href="#everything-in-one-clear-workspace"><img alt="Features" src="https://img.shields.io/badge/Features-2B2545?style=for-the-badge"></a>
+  <a href="#safety-is-the-feature"><img alt="Safety" src="https://img.shields.io/badge/Safety-2B2545?style=for-the-badge"></a>
+  <a href="#see-it-in-action"><img alt="Screenshots" src="https://img.shields.io/badge/Screenshots-2B2545?style=for-the-badge"></a>
+  <a href="docs/PRIVACY.md"><img alt="Privacy" src="https://img.shields.io/badge/Privacy-2B2545?style=for-the-badge"></a>
+  <a href="docs/GETTING-OMNI-CLEANER.md"><img alt="Install" src="https://img.shields.io/badge/Install-2B2545?style=for-the-badge"></a>
+  <a href="docs/FAQ.md"><img alt="FAQ" src="https://img.shields.io/badge/FAQ-2B2545?style=for-the-badge"></a>
+  <a href="#support-the-project"><img alt="Support" src="https://img.shields.io/badge/Support-2B2545?style=for-the-badge"></a>
 </p>
 
 > [!IMPORTANT]
