@@ -39,8 +39,8 @@ OmniCleaner combines curated Windows and application cleanup, verified duplicate
 | [Safety workflow](../assets/marketing/safe-workflow.png) | 1400 × 320 | Explain the Analyze → Review → Clean model. |
 | [Full application icon](../assets/brand/omnicleaner-icon.png) | 256 × 256 | Product identification. |
 | [Broom mark](../assets/brand/omnicleaner-mark.png) | 256 × 256 | Compact OmniCleaner identification. |
-| [Patreon button](../assets/support/patreon.png) | Branded PNG | Link to the official Patreon page. |
-| [Ko-fi button](../assets/support/ko-fi.png) | Branded PNG | Link to the official Ko-fi page. |
+| [Patreon button](../assets/support/support-patreon.svg) | Branded SVG | Link to the official Patreon page. |
+| [Ko-fi button](../assets/support/support-kofi.svg) | Branded SVG | Link to the official Ko-fi page. |
 
 The [screenshots directory](../assets/screenshots/) contains approved captures of Overview, Cleanup & privacy, Storage & files, Apps & Windows, Automation, Settings & safety, and Rule Lab.
 
