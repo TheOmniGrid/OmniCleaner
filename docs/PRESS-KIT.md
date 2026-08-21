@@ -4,11 +4,13 @@ Approved product artwork and screenshots are included in this repository so Omni
 
 ## Messaging
 
-**Product name:** OmniCleaner  
-**Developer:** The OmniGrid  
-**Tagline:** Safe Windows maintenance without the mystery.  
-**Platform:** Windows 11, x64 and ARM64  
-**Model:** Donationware
+| Field | Value |
+|---|---|
+| Product name | **OmniCleaner** |
+| Developer | **The OmniGrid** |
+| Tagline | **Safe Windows maintenance without the mystery.** |
+| Platform | **Windows 11, x64 and ARM64** |
+| Model | **Donationware** |
 
 ### One sentence
 
