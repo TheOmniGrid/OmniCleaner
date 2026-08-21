@@ -26,16 +26,17 @@
 <p align="center">
   <a href="#get-omnicleaner"><img alt="Get OmniCleaner" src="https://img.shields.io/badge/⬇%20Get%20OmniCleaner-8A7BFF?style=for-the-badge"></a>
   <a href="#everything-in-one-clear-workspace"><img alt="Features" src="https://img.shields.io/badge/Features-2B2545?style=for-the-badge"></a>
-  <a href="#safety-is-the-feature"><img alt="Safety" src="https://img.shields.io/badge/Safety-2B2545?style=for-the-badge"></a>
   <a href="#see-it-in-action"><img alt="Screenshots" src="https://img.shields.io/badge/Screenshots-2B2545?style=for-the-badge"></a>
-  <a href="docs/PRIVACY.md"><img alt="Privacy" src="https://img.shields.io/badge/Privacy-2B2545?style=for-the-badge"></a>
-  <a href="docs/GETTING-OMNI-CLEANER.md"><img alt="Install" src="https://img.shields.io/badge/Install-2B2545?style=for-the-badge"></a>
-  <a href="docs/FAQ.md"><img alt="FAQ" src="https://img.shields.io/badge/FAQ-2B2545?style=for-the-badge"></a>
+  <a href="#safety-is-the-feature"><img alt="Safety" src="https://img.shields.io/badge/Safety-2B2545?style=for-the-badge"></a>
+  <a href="PRIVACY.md"><img alt="Privacy" src="https://img.shields.io/badge/Privacy-2B2545?style=for-the-badge"></a>
+  <a href="INSTALLATION.md"><img alt="Installation" src="https://img.shields.io/badge/Installation-2B2545?style=for-the-badge"></a>
+  <a href="FAQ.md"><img alt="FAQ" src="https://img.shields.io/badge/FAQ-2B2545?style=for-the-badge"></a>
   <a href="#support-the-project"><img alt="Support" src="https://img.shields.io/badge/Support-2B2545?style=for-the-badge"></a>
+  <a href="CHANGELOG.md"><img alt="Changelog" src="https://img.shields.io/badge/Changelog-2B2545?style=for-the-badge"></a>
 </p>
 
 > [!IMPORTANT]
-> This is OmniCleaner’s public product and documentation repository. In keeping with the OmniGrid release model, **application source code, installers, portable builds, signing material, and private build infrastructure are deliberately not hosted here**.
+> **Documentation-only repository.** This public repository contains OmniCleaner documentation, approved artwork, and screenshots—not application source code, installers, portable builds, signing material, or private build infrastructure. Official distribution remains outside GitHub.
 
 ## Why OmniCleaner
 
@@ -95,6 +96,35 @@ OmniCleaner brings modern Windows cleanup, storage intelligence, file discovery,
 - Analyze-only schedules, cleanup budgets, optional shutdown, and local execution history.
 - Command-line support for transparent, scriptable maintenance workflows.
 
+## Feature highlights
+
+- Global feature finder with keyboard access (`Ctrl+K`).
+- Intuitive goal-based navigation and progressive disclosure of advanced controls.
+- Hover descriptions and accessible help text throughout the interface.
+- Smart cleanup, privacy traces, browser and app caches, and Windows maintenance rules.
+- Empty-directory, large-file, duplicate, folder-summary, and extension-summary scanners.
+- Recycle Bin, quarantine, restoration, history, settings bundles, and exclusions.
+- Installed apps, startup entries, services, tasks, Windows Update, WinGet, and driver inventory.
+- Signed HTTPS catalog infrastructure for explicitly requested definition updates.
+- Native x64 and ARM64 packaging for Windows 11.
+- No ads, account, analytics, telemetry, cloud service, auto-updater, or resident daemon.
+
+For the long-form inventory, see [Features](FEATURES.md) and [Coverage & improvements](docs/COVERAGE.md).
+
+## See it in action
+
+| Curated cleanup | Storage intelligence |
+|---|---|
+| <img src="assets/screenshots/cleanup.png" alt="Cleanup and privacy workspace" width="100%"> | <img src="assets/screenshots/storage.png" alt="Storage and files workspace" width="100%"> |
+
+| Apps & Windows | Quiet automation |
+|---|---|
+| <img src="assets/screenshots/apps-windows.png" alt="Apps and Windows workspace" width="100%"> | <img src="assets/screenshots/automation.png" alt="Automation workspace" width="100%"> |
+
+| Rule Lab | Settings & safety |
+|---|---|
+| <img src="assets/screenshots/rule-lab.png" alt="OmniCleaner Rule Lab" width="100%"> | <img src="assets/screenshots/settings.png" alt="Settings and safety workspace" width="100%"> |
+
 ## Safety is the feature
 
 <p align="center">
@@ -111,36 +141,7 @@ Additional protections include root-path blocking, reparse-point boundaries, exc
 
 OmniCleaner intentionally does **not** include a registry cleaner, fake one-click “health score,” automatic driver replacement, multi-pass SSD wiping, forced process termination, or unattended application removal. These features create more risk than value on modern Windows systems.
 
-[Read the complete safety model](docs/SAFETY.md) · [Read the privacy statement](docs/PRIVACY.md)
-
-## See it in action
-
-| Curated cleanup | Storage intelligence |
-|---|---|
-| <img src="assets/screenshots/cleanup.png" alt="Cleanup and privacy workspace" width="100%"> | <img src="assets/screenshots/storage.png" alt="Storage and files workspace" width="100%"> |
-
-| Apps & Windows | Quiet automation |
-|---|---|
-| <img src="assets/screenshots/apps-windows.png" alt="Apps and Windows workspace" width="100%"> | <img src="assets/screenshots/automation.png" alt="Automation workspace" width="100%"> |
-
-| Rule Lab | Settings & safety |
-|---|---|
-| <img src="assets/screenshots/rule-lab.png" alt="OmniCleaner Rule Lab" width="100%"> | <img src="assets/screenshots/settings.png" alt="Settings and safety workspace" width="100%"> |
-
-## Feature highlights
-
-- Global feature finder with keyboard access (`Ctrl+K`).
-- Intuitive goal-based navigation and progressive disclosure of advanced controls.
-- Hover descriptions and accessible help text throughout the interface.
-- Smart cleanup, privacy traces, browser and app caches, and Windows maintenance rules.
-- Empty-directory, large-file, duplicate, folder-summary, and extension-summary scanners.
-- Recycle Bin, quarantine, restoration, history, settings bundles, and exclusions.
-- Installed apps, startup entries, services, tasks, Windows Update, WinGet, and driver inventory.
-- Signed HTTPS catalog infrastructure for explicitly requested definition updates.
-- Native x64 and ARM64 packaging for Windows 11.
-- No ads, account, analytics, telemetry, cloud service, auto-updater, or resident daemon.
-
-For the long-form inventory, see [Features](docs/FEATURES.md) and [Coverage & improvements](docs/COVERAGE.md).
+[Read the complete safety model](docs/SAFETY.md) · [Read the privacy statement](PRIVACY.md)
 
 ## Get OmniCleaner
 
@@ -152,18 +153,22 @@ OmniCleaner is distributed outside GitHub through official OmniGrid channels. Th
 
 - Follow and support development on [Patreon](https://www.patreon.com/TheOmniGrid).
 - Support with a one-time or recurring contribution on [Ko-fi](https://ko-fi.com/theomnigrid).
-- Read [Getting OmniCleaner](docs/GETTING-OMNI-CLEANER.md) before installing a build obtained through an official channel.
+- Read [Installation](INSTALLATION.md) before installing a build obtained through an official channel.
 
 ## Documentation
 
 | Document | Purpose |
 |---|---|
-| [Features](docs/FEATURES.md) | Detailed capability inventory by workspace. |
+| [Features](FEATURES.md) | Detailed capability inventory by workspace. |
 | [Coverage & improvements](docs/COVERAGE.md) | How OmniCleaner covers and modernizes the referenced tool categories. |
 | [Safety](docs/SAFETY.md) | Preview, validation, recovery, and intentional non-features. |
-| [Privacy](docs/PRIVACY.md) | What stays local and when network access can occur. |
-| [Getting OmniCleaner](docs/GETTING-OMNI-CLEANER.md) | Platform requirements and release-channel guidance. |
-| [FAQ](docs/FAQ.md) | Common product, compatibility, and safety questions. |
+| [Privacy](PRIVACY.md) | What stays local and when network access can occur. |
+| [Installation](INSTALLATION.md) | Platform requirements and release-channel guidance. |
+| [FAQ](FAQ.md) | Common product, compatibility, and safety questions. |
+| [Support](SUPPORT.md) | Useful reports, privacy redaction, and contact routes. |
+| [Security](SECURITY.md) | Private vulnerability reporting. |
+| [Contributing](CONTRIBUTING.md) | Documentation contribution scope and workflow. |
+| [Changelog](CHANGELOG.md) | Public product and documentation milestones. |
 | [Public repository policy](docs/PUBLIC-REPOSITORY.md) | Exactly what is and is not published here. |
 | [Press kit](docs/PRESS-KIT.md) | Approved messaging, graphics, screenshots, and brand cues. |
 

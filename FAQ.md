@@ -6,7 +6,7 @@ No. OmniCleaner is currently proprietary. This repository publishes product info
 
 ## Where is the installer?
 
-Installers and portable builds are deliberately not hosted on GitHub. See [Getting OmniCleaner](GETTING-OMNI-CLEANER.md) for official channels.
+Installers and portable builds are deliberately not hosted on GitHub. See [Installation](INSTALLATION.md) for official channels.
 
 ## Does OmniCleaner run in the background?
 
