@@ -2,14 +2,26 @@
   <img src="assets/marketing/hero.png" alt="OmniCleaner — safe Windows maintenance without the mystery" width="100%">
 </p>
 
+<h1 align="center">OmniCleaner</h1>
+<p align="center"><b>Preview-first cleanup, storage intelligence, and Windows maintenance — local-only, reversible by default, and built to stay out of the way.</b></p>
+
 <p align="center">
-  <img alt="Version 1.0.0" src="https://img.shields.io/badge/version-1.0.0-7557ff?style=for-the-badge">
-  <img alt="Windows 11" src="https://img.shields.io/badge/Windows-11-35cfff?style=for-the-badge&logo=windows11&logoColor=white">
-  <img alt="x64 and ARM64" src="https://img.shields.io/badge/architecture-x64%20%2B%20ARM64-151b26?style=for-the-badge">
-  <img alt="No telemetry" src="https://img.shields.io/badge/telemetry-none-25d9ad?style=for-the-badge">
-  <img alt="Donationware" src="https://img.shields.io/badge/model-donationware-a45cff?style=for-the-badge">
+  <a href="https://www.patreon.com/TheOmniGrid"><img src="assets/support/support-patreon.svg" height="64" alt="Support OmniCleaner on Patreon"></a>
+  &nbsp;&nbsp;
+  <a href="https://ko-fi.com/theomnigrid"><img src="assets/support/support-kofi.svg" height="64" alt="Support OmniCleaner on Ko-fi"></a>
 </p>
 
+<p align="center">
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-8A7BFF?style=flat-square">
+  <img alt="Platform" src="https://img.shields.io/badge/platform-Windows%2011-0078D4?style=flat-square&logo=windows11&logoColor=white">
+  <img alt="Architecture" src="https://img.shields.io/badge/architecture-x64%20%C2%B7%20ARM64-23232F?style=flat-square">
+  <img alt="Telemetry" src="https://img.shields.io/badge/telemetry-none-2EA043?style=flat-square">
+  <img alt="Model" src="https://img.shields.io/badge/model-donationware-6A5BDB?style=flat-square">
+</p>
+
+<!-- Quick navigation. These are clickable: each chip jumps to a section of this
+     page, or to the document it names. Anchors are GitHub's own slugs for the
+     headings below -- if a heading is renamed, its chip has to be renamed too. -->
 <p align="center">
   <a href="#get-omnicleaner"><img alt="Get OmniCleaner" src="https://img.shields.io/badge/↓%20Get%20OmniCleaner-8A7BFF?style=for-the-badge"></a>
   <a href="#everything-in-one-clear-workspace"><img alt="Features" src="https://img.shields.io/badge/Features-2B2545?style=for-the-badge"></a>
@@ -22,11 +34,7 @@
   <a href="#support-the-project"><img alt="Support" src="https://img.shields.io/badge/Support-2B2545?style=for-the-badge"></a>
 </p>
 
-<p align="center">
-  <a href="https://www.patreon.com/TheOmniGrid"><img src="assets/support/support-patreon.svg" height="64" alt="Support OmniCleaner on Patreon"></a>
-  &nbsp;&nbsp;
-  <a href="https://ko-fi.com/theomnigrid"><img src="assets/support/support-kofi.svg" height="64" alt="Support OmniCleaner on Ko-fi"></a>
-</p>
+---
 
 > [!IMPORTANT]
 > This is OmniCleaner’s public product and documentation repository. In keeping with the OmniGrid release model, **application source code, installers, portable builds, signing material, and private build infrastructure are deliberately not hosted here**.
