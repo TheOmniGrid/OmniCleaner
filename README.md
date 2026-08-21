@@ -2,6 +2,10 @@
   <img src="assets/marketing/banner-animated.gif" alt="OmniCleaner — safe Windows maintenance without the mystery" width="100%">
 </p>
 
+<h1 align="center">OmniCleaner</h1>
+<p align="center"><b>Preview-first cleanup, storage intelligence, and Windows maintenance — local-only, reversible by default, and built to stay out of the way.</b></p>
+<p align="center">Part of the <a href="#the-omnivex-suite">OmniVex</a> suite.</p>
+
 <p align="center">
   <img alt="Version 1.0.0" src="https://img.shields.io/badge/version-1.0.0-7557ff?style=for-the-badge">
   <img alt="Windows 11" src="https://img.shields.io/badge/Windows-11-35cfff?style=for-the-badge&logo=windows11&logoColor=white">
@@ -173,5 +177,14 @@ OmniCleaner is donationware. Contributions fund Windows compatibility work, rule
 Bug reports, feature requests, documentation suggestions, and responsible security reports are welcome. Code contributions are not accepted through this showcase repository because the application source is not public.
 
 OmniCleaner is currently proprietary and all rights are reserved. See [LICENSE.md](LICENSE.md), [CONTRIBUTING.md](CONTRIBUTING.md), and [SECURITY.md](SECURITY.md).
+
+## The OmniVex suite
+
+OmniCleaner is one of a family of tools sharing a design language and a philosophy —
+modern, fast, no telemetry:
+
+**OmniTheme** · **OmniBlock** · **OmniCleaner** · **OmniAPO** · **OmniEQ** · **OmniPlay** · **OmniScale** · **OmniShade** · **OmniVisuals** · **OmniGPU** · **OmniWrappers**
+
+<sub>**OmniWrappers** is four Direct3D compatibility installers — OmniDXVK, OmniDxWrapper, OmniVKD3D and OmniVoodoo2.</sub>
 
 <p align="center"><sub>OmniCleaner · The OmniGrid · Windows maintenance with context, consent, and recovery.</sub></p>
