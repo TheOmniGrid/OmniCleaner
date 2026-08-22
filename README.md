@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/marketing/banner-animated.gif?v=20260822-symbol-reactor" alt="OmniCleaner — Windows maintenance, done transparently." width="100%">
+  <img src="assets/marketing/banner-animated.gif?v=20260822-premium-motion-v3" alt="OmniCleaner — Windows maintenance, done transparently." width="100%">
 </p>
 
 <h1 align="center">OmniCleaner</h1>
