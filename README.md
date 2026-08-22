@@ -172,7 +172,7 @@ OmniCleaner is distributed outside GitHub through official OmniGrid channels. Th
 | [Public repository policy](docs/PUBLIC-REPOSITORY.md) | Exactly what is and is not published here. |
 | [Press kit](docs/PRESS-KIT.md) | Approved messaging, graphics, screenshots, and brand cues. |
 
-## Support the project
+### Support the project
 
 OmniCleaner is donationware. Contributions fund Windows compatibility work, rule maintenance, testing, documentation, signing, and continued development across the OmniGrid family.
 
@@ -239,6 +239,6 @@ for repository scope and reporting guidance.
   <a href="https://github.com/TheOmniGrid">The OmniGrid on GitHub</a> ·
   <a href="https://ko-fi.com/theomnigrid">Ko-fi</a> ·
   <a href="https://www.patreon.com/TheOmniGrid">Patreon</a><br><br>
-  <sub>Copyright © 2026 OmniVex · Proprietary donationware · All rights reserved · <a href="LICENSE.md">License</a></sub><br>
+  <sub>Copyright © 2026 OmniVex · Proprietary donationware · All rights reserved · <a href="LICENSE.md">Legal &amp; licensing</a></sub><br>
   <sub>Windows, Windows 11 and WinGet are trademarks of Microsoft Corporation; OmniCleaner is not affiliated with Microsoft.</sub>
 </p>
