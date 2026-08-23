@@ -63,7 +63,7 @@ OmniCleaner brings modern Windows cleanup, storage intelligence, file discovery,
 ## Everything in one clear workspace
 
 <p align="center">
-  <img src="assets/marketing/feature-grid.png" alt="Six OmniCleaner feature workspaces" width="96%">
+  <img src="assets/presentation/capabilities.png" alt="OmniCleaner capability map covering preview-first analysis, item-level explanations, recovery, and Windows maintenance coverage" width="100%">
 </p>
 
 ### Cleanup & privacy
@@ -129,7 +129,7 @@ For the long-form inventory, see [Features](FEATURES.md) and [Coverage & improve
 ## Safety is the feature
 
 <p align="center">
-  <img src="assets/marketing/safe-workflow.png" alt="Analyze, Review, Clean workflow" width="96%">
+  <img src="assets/presentation/workflow.png" alt="OmniCleaner safe cleanup workflow: Analyze, Review, then Clean the confirmed plan" width="100%">
 </p>
 
 OmniCleaner’s execution model is designed to make stale assumptions and accidental deletion harder:
