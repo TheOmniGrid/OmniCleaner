@@ -35,8 +35,8 @@ OmniCleaner combines curated Windows and application cleanup, verified duplicate
 |---|---:|---|
 | [Repository hero](../assets/marketing/hero.png) | 1600 × 500 | GitHub and wide product headers. |
 | [Social preview](../assets/marketing/social-preview.png) | 1280 × 640 | Link cards and social announcements. |
-| [Feature board](../assets/marketing/feature-grid.png) | 1400 × 720 | Feature overviews and supporter posts. |
-| [Safety workflow](../assets/marketing/safe-workflow.png) | 1400 × 320 | Explain the Analyze → Review → Clean model. |
+| [Capability map](../assets/presentation/capabilities.png) | 1600 × 720 | Feature overviews and supporter posts. |
+| [Safety workflow](../assets/presentation/workflow.png) | 1600 × 500 | Explain the Analyze → Review → Clean model. |
 | [Full application icon](../assets/brand/omnicleaner-icon.png) | 256 × 256 | Product identification. |
 | [Broom mark](../assets/brand/omnicleaner-mark.png) | 256 × 256 | Compact OmniCleaner identification. |
 | [Patreon button](../assets/support/support-patreon.svg) | Branded SVG | Link to the official Patreon page. |
