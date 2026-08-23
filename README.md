@@ -63,7 +63,7 @@ OmniCleaner brings modern Windows cleanup, storage intelligence, file discovery,
 ## Everything in one clear workspace
 
 <p align="center">
-  <img src="assets/presentation/capabilities.png" alt="OmniCleaner capability map covering preview-first analysis, item-level explanations, recovery, and Windows maintenance coverage" width="100%">
+  <img src="assets/presentation/capabilities.png?v=20260823-visible-numbers-v3" alt="OmniCleaner capability map covering preview-first analysis, item-level explanations, recovery, and Windows maintenance coverage" width="100%">
 </p>
 
 ### Cleanup & privacy
