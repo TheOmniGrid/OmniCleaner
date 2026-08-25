@@ -18,7 +18,7 @@ OmniCleaner is a preview-first Windows 11 cleanup, storage intelligence, app mai
 
 ### Short description
 
-OmniCleaner combines curated Windows and application cleanup, verified duplicate discovery, storage analysis, empty-directory and large-file tools, app and startup inventory, Task Scheduler automation, and recovery-focused safeguards in one clear Windows 11 interface.
+OmniCleaner combines curated Windows and application cleanup, Storage Intelligence 2, verified file discovery, Windows 11 Care, app and startup maintenance, Task Scheduler automation, and recovery-focused safeguards in one clear Windows 11 interface.
 
 ### Key proof points
 
@@ -26,6 +26,8 @@ OmniCleaner combines curated Windows and application cleanup, verified duplicate
 - 112 curated cleaning rules.
 - Recycle Bin by default, plus quarantine and restoration.
 - Full SHA-256 and byte verification for duplicate candidates.
+- Windows 11 Care for update readiness, low-storage planning, Downloads review, shortcut health, Component Store insights, and path-free diagnostics.
+- 49/49 deterministic Core tests plus UI, CLI, x64 lifecycle, x64/ARM64 package, and security gates for version 1.0.0.
 - No account, telemetry, advertising, cloud dependency, resident service, or tray process.
 - Native x64 and ARM64 distribution for Windows 11.
 

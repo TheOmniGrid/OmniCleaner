@@ -23,8 +23,9 @@ Network access can occur only when the user explicitly requests a network-backed
 
 - A WinGet/package update query or handoff.
 - Retrieval of an explicitly configured HTTPS rule catalog.
+- An explicitly requested signed application-update manifest check, which displays metadata and can open verified release notes but never downloads or installs an update.
 
-Remote catalogs must pass configured digest and signature checks before definitions are accepted. OmniCleaner does not silently poll a catalog or application-update service.
+Remote catalogs must pass configured digest and signature checks before definitions are accepted. OmniCleaner does not send scan results with these requests and does not silently poll a catalog or application-update service. Windows, browsers, WinGet, and publisher tools opened by OmniCleaner have their own network and privacy behavior.
 
 ## Public support services
 
