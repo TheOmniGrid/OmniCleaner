@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/marketing/banner-animated.gif?v=20260822-premium-motion-v3" alt="OmniCleaner — Windows maintenance, done transparently." width="100%">
+  <img src="assets/marketing/banner-animated.gif?v=20260825-current-symbol-v1" alt="OmniCleaner — Windows maintenance, done transparently." width="100%">
 </p>
 
 <h1 align="center">OmniCleaner</h1>
@@ -15,10 +15,10 @@
 <!-- Suite metadata: Version · Platform · Languages · Telemetry · Distribution -->
 <p align="center">
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-8A7BFF?style=flat-square">
-  <img alt="Platform" src="https://img.shields.io/badge/platform-Windows%2011%20%C2%B7%20x64%20%2F%20ARM64-0078D4?style=flat-square">
-  <img alt="Languages" src="https://img.shields.io/badge/languages-EN%20%C2%B7%20DE%20%28partial%29-8A7BFF?style=flat-square">
-  <img alt="Telemetry" src="https://img.shields.io/badge/telemetry-none-2EA043?style=flat-square">
-  <img alt="Distribution" src="https://img.shields.io/badge/distribution-docs%20only-99A3B1?style=flat-square">
+  <img alt="Platform" src="https://img.shields.io/badge/platform-Windows%2011%20%C2%B7%20x64%20%2F%20ARM64-57C7FF?style=flat-square">
+  <img alt="Languages: 10" src="https://img.shields.io/badge/languages-10-8A7BFF?style=flat-square">
+  <img alt="Telemetry" src="https://img.shields.io/badge/telemetry-none-00C66D?style=flat-square">
+  <img alt="Distribution" src="https://img.shields.io/badge/distribution-docs%20only-969FAB?style=flat-square&labelColor=30363D">
 </p>
 
 <!-- Quick navigation. These are clickable: each chip jumps to a section of this
@@ -59,6 +59,7 @@ OmniCleaner brings modern Windows cleanup, storage intelligence, file discovery,
 | **Local only** | No account, cloud dependency, advertising, analytics, or telemetry. |
 | **Lightweight** | No resident service, tray process, always-on watcher, or background health monitor. |
 | **Windows-native** | Designed for current Windows 11 machines on x64 and ARM64. |
+| **Ten languages** | English, German, Spanish, French, Romanian, Russian, Simplified Chinese, Japanese, Korean and Turkish; missing feature-specific strings fall back safely to English. |
 
 ## Everything in one clear workspace
 
@@ -90,6 +91,13 @@ OmniCleaner brings modern Windows cleanup, storage intelligence, file discovery,
 - Windows Update, driver, and package-update inventory, including explicit WinGet handoff.
 - Direct access to appropriate native Windows maintenance and browser privacy surfaces.
 
+### Windows 11 Care & recovery
+
+- Update/reboot/rollback readiness, ranked Low Storage Rescue, and a conservative Downloads review.
+- Shortcut health without UNC or mapped-network probes, bounded supported DISM analysis, and selected-file lock-owner reporting without forced closure.
+- Reversible Explorer integration, path-free diagnostics, and contained Omni-suite discovery that is disabled while OmniCleaner is elevated.
+- Recycle Bin defaults, SHA-256-verified quarantine, visible retention/expiry state, and collision-safe restoration.
+
 ### Automation without a resident service
 
 - Quick, Balanced, and Privacy maintenance profiles.
@@ -107,8 +115,12 @@ OmniCleaner brings modern Windows cleanup, storage intelligence, file discovery,
 - Recycle Bin, quarantine, restoration, history, settings bundles, and exclusions.
 - Installed apps, startup entries, services, tasks, Windows Update, WinGet, and driver inventory.
 - Signed HTTPS catalog infrastructure for explicitly requested definition updates.
+- Windows 11 Care for update readiness, Low Storage Rescue, Downloads review, shortcut health, Component Store insights, and diagnostics.
+- Bounded local similar-photo review, hard-link-aware storage totals, cloud-state reporting without hydration, and recurring growth snapshots.
 - Native x64 and ARM64 packaging for Windows 11.
 - No ads, account, analytics, telemetry, cloud service, auto-updater, or resident daemon.
+
+Version 1.0.0 passed 49/49 deterministic Core tests, both WPF smoke targets, CLI gates, a complete x64 install/uninstall lifecycle, and x64/ARM64 package verification. The final security review has no open critical, high, or medium finding; remaining signing, physical ARM64, broad fresh-VM, accessibility, and measured-performance work is documented transparently in the [changelog](CHANGELOG.md).
 
 For the long-form inventory, see [Features](FEATURES.md) and [Coverage & improvements](docs/COVERAGE.md).
 
@@ -126,6 +138,13 @@ For the long-form inventory, see [Features](FEATURES.md) and [Coverage & improve
 |---|---|
 | <img src="assets/screenshots/rule-lab.png" alt="OmniCleaner Rule Lab" width="100%"> | <img src="assets/screenshots/settings.png" alt="Settings and safety workspace" width="100%"> |
 
+<details>
+<summary><strong>View the ten-language interface matrix</strong></summary>
+
+![OmniCleaner shown in English, German, Spanish, French, Romanian, Russian, Simplified Chinese, Japanese, Korean, and Turkish](assets/screenshots/languages.png)
+
+</details>
+
 ## Safety is the feature
 
 <p align="center">
@@ -138,7 +157,7 @@ OmniCleaner’s execution model is designed to make stale assumptions and accide
 2. **Review** exact candidates, sizes, sources, risk labels, and the intended action.
 3. **Clean** only the confirmed plan after paths and conditions are revalidated.
 
-Additional protections include root-path blocking, reparse-point boundaries, exclusions, cleanup budgets, immutable plan identities, supported-browser warnings, Recycle Bin defaults, quarantine, and local audit history.
+Additional protections include root-path blocking, reparse-point boundaries, exclusions, cleanup budgets, immutable plan identities, supported-browser warnings, no-probe external shortcut handling, bounded image/DISM processing, Recycle Bin defaults, quarantine, and local audit history.
 
 OmniCleaner intentionally does **not** include a registry cleaner, fake one-click “health score,” automatic driver replacement, multi-pass SSD wiping, forced process termination, or unattended application removal. These features create more risk than value on modern Windows systems.
 

@@ -19,6 +19,9 @@ OmniCleaner treats cleanup as a planned system change, not a blind delete operat
 - Supported active browsers can trigger review warnings.
 - Advanced-risk rules are hidden from the default path until deliberately enabled.
 - Scheduled runs can be analyze-only.
+- Shortcut inspection never probes UNC or mapped-network targets, so a local review cannot initiate SMB authentication.
+- Similar-photo inputs are capped at 64 MiB and 100 megapixels and use a bounded decode; DISM output is capped per stream.
+- Contained Omni-suite applications require explicit selection and are not launched while OmniCleaner is elevated.
 
 ## Recovery choices
 
@@ -37,6 +40,10 @@ Duplicate candidates pass through progressively stronger checks: equal size, sam
 ## Empty-directory safety
 
 Empty-directory scans are recursive and previewed. Protected roots and reparse points are excluded. Parent directories are reconsidered only after child processing, so the final action reflects current state rather than stale scan state.
+
+## Definitions, native tools, and elevation
+
+Imported definitions are data, not executable extensions: commands, scripts, installers, registry deletion, and automatic enablement are rejected. Signed online or offline catalogues prove publisher control but still import rules disabled for review. Windows maintenance actions use supported native surfaces where appropriate. OmniCleaner does not auto-elevate, and it refuses to use an elevated process to launch sibling Omni applications.
 
 ## Intentional non-features
 

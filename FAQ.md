@@ -47,3 +47,15 @@ OmniCleaner supports Winapp-style imports, its native rule format, and an integr
 ## Which Windows versions are supported?
 
 Version 1.0.0 focuses on modern Windows 11 machines on x64 and ARM64.
+
+## Does shortcut checking contact network shares?
+
+No. UNC and mapped-network targets are classified as external without an existence probe, so Shortcut Health does not initiate SMB authentication. Only confirmed missing local targets can enter cleanup review.
+
+## Does OmniCleaner run elevated?
+
+It does not auto-elevate at startup. Explicit native Windows operations retain their own consent boundaries, and OmniCleaner refuses to launch sibling Omni applications while its own process is elevated.
+
+## How was version 1.0.0 validated?
+
+The final release passed 49/49 deterministic Core tests, both WPF smoke targets, CLI gates, a complete x64 install/uninstall lifecycle, x64/ARM64 package/hash/architecture checks, and a standard security scan with no open critical, high, or medium finding. Authenticode signing, physical ARM64 execution, broader clean-VM coverage, accessibility user review, and measured ETW performance remain transparently documented external assurance work.
